@@ -1,0 +1,8 @@
+MAIL:
+  MAIL_FROM: "john@doe.com"
+  MAIL_PASSWORD: "password"
+  SMTP: "smt.some.provider"
+  SMTP_PORT: "123"
+RABBIT:
+  RABBIT_URL: "amqp://guest:guest@localhost:5672"
+  MAIL_QUEUE: "your.queue.here"
